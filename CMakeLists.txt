@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.26)
-project(mytest)
+project(googleTestTutorial)
 set(CMAKE_CXX_STANDARD 17)
 include(FetchContent)
 FetchContent_Declare(
@@ -11,10 +11,9 @@ set(gtest_force_shared_crt ON CACHE BOOL "" FORCE)
 FetchContent_MakeAvailable(googletest)
 
 enable_testing()
-add_executable(${PROJECT_NAME} SimpleVector_test.cpp)
+
+#include subdirectories
 add_subdirectory(lib)
-target_link_libraries(${PROJECT_NAME} simpleVector GTest::gtest_main)
-include(GoogleTest)
-gtest_discover_tests(${PROJECT_NAME})
+add_subdirectory(test)
 
 

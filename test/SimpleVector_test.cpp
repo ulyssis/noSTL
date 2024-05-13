@@ -1,7 +1,7 @@
 #include <gtest/gtest.h>
-#include "lib/SimpleVector.h"
+#include "../lib/SimpleVector.h"
 // #include "SimpleVectorImpl.h"
-#include "ErrorCode.h"
+#include "../lib/ErrorCode.h"
 
 // Test case for SimpleVector
 class SimpleVectorTest : public ::testing::Test
