@@ -1,2 +1,13 @@
 This project is for enducation purpose, which uses GoogleTest to test C++ implementation with CMake.
- 
+
+# how to use
+## clone the repo to local machine
+
+## create a 'build' folder to compile
+### mkdir build && cd build
+### cmake ..
+### make
+
+## run the test
+### test/googleTestTutorial_tests
+
