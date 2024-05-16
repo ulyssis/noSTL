@@ -10,4 +10,14 @@ This project is for enducation purpose, which uses GoogleTest to test C++ implem
 
 ## run the test
 ### test/googleTestTutorial_tests
+CMakeLists.txt
+SimpleVector_test.cpp
 
+[lib]
+    ├── CMakeLists.txt
+    ├── ErrorCode.h
+    ├── SimpleVector.cpp
+    └── SimpleVector.h
+[test]
+    ├── CMakeLists.txt
+    └── SimpleVector_test.cpp

@@ -1,4 +1,4 @@
-# /test/CMakeLists.txt
+# test/CMakeLists.txt
 
 # Include GoogleTest so it can be used for testing
 include(FetchContent)
