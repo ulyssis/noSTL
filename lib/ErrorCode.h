@@ -1,3 +1,5 @@
+#pragma once
+
 // ErrorCode.h
 enum class ErrorCode
 {

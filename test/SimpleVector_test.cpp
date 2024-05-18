@@ -7,7 +7,7 @@
 class SimpleVectorTest : public ::testing::Test
 {
 protected:
-    SimpleVector vec;
+    SimpleVector<int> vec;
 
     // You can do set-up work for each test here.
     void SetUp() override
@@ -34,7 +34,7 @@ TEST_F(SimpleVectorTest, HandlesSizeIncrease)
 // Tests that the SimpleVector throws when popping from empty.
 TEST_F(SimpleVectorTest, HandlesPopFromEmpty)
 {
-    SimpleVector emptyVec;
+    SimpleVector<int> emptyVec;
     ASSERT_EQ(static_cast<int>(ErrorCode::OutOfRange), emptyVec.pop_back()); // Should return OutOfRange
 }
 
@@ -49,7 +49,7 @@ TEST_F(SimpleVectorTest, HandlesPopBack)
 // Test empty vector
 TEST_F(SimpleVectorTest, HandlesEmptyVector)
 {
-    SimpleVector emptyVec;
+    SimpleVector<int> emptyVec;
     ASSERT_TRUE(emptyVec.is_empty());
     ASSERT_EQ(0, emptyVec.size());
     ASSERT_EQ(0, emptyVec.get_capacity());
