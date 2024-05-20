@@ -1,6 +1,7 @@
 cmake_minimum_required(VERSION 3.26)
 project(googleTestTutorial)
 set(CMAKE_CXX_STANDARD 17)
+add_compile_options(-Wall -Wextra -Werror -O2)
 include(FetchContent)
 FetchContent_Declare(
   googletest
