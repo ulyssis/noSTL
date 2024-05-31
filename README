@@ -3,10 +3,16 @@ This project is for enducation purpose, which uses GoogleTest to test C++ implem
 # how to use
 ## clone the repo to local machine
 
-## create a 'build' folder to compile
-### mkdir build && cd build
-### cmake ..
-### make
+## method 1
+### create a 'build' folder to compile
+#### mkdir build && cd build
+#### cmake ..
+#### make
+
+## method 2
+### use the configuration defined in .vscode/tasks.json
+#### ctrl+shift+B
+#### choose "execute shell command of cmake to build"
 
 ## run the test
 ### test/googleTestTutorial_tests

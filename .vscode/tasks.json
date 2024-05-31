@@ -1,0 +1,27 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+
+		{
+            "label": "execute shell command of cmake to build",
+            "type": "shell",
+            "command": "./scripts/runCmakeCommands.sh",
+            "group": "build",
+            "presentation": {
+                "reveal": "always",
+                "panel": "new"
+            }
+        },
+
+        {
+            "label": "run the google test",
+            "type": "shell",
+            "command": "./scripts/runGoogleTests.sh",
+            "group": "build",
+            "presentation": {
+                "reveal": "always",
+                "panel": "new"
+            }
+        }
+	]
+}
