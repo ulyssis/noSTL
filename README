@@ -3,19 +3,22 @@ This project is for enducation purpose, which uses GoogleTest to test C++ implem
 # how to use
 ## clone the repo to local machine
 
-## method 1
+## how to build, method 1
 ### create a 'build' folder to compile
 #### mkdir build && cd build
 #### cmake ..
 #### make
 
-## method 2
+## how to build, method 2
 ### use the configuration defined in .vscode/tasks.json
 #### ctrl+shift+B
 #### choose "execute shell command of cmake to build"
 
-## run the test
+## run the test, method 1
 ### test/googleTestTutorial_tests
+## run the test, method 2
+### ctrl+shift+B, choose "run the google test"
+
 CMakeLists.txt
 SimpleVector_test.cpp
 
