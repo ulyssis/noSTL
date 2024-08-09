@@ -1,3 +1,5 @@
+This software implements a FIFO queue that, thanks to templates, can store elements of basic data types.
+
 This project is for enducation purpose, which uses GoogleTest to test C++ implementation with CMake.
 
 # how to use
