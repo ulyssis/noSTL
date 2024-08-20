@@ -1,4 +1,36 @@
-// create a sting class, including its construtor and copy constructor
+/*
+README
+This file creates a customized string class.
+
+In C++, there are usually 3 ways to create a string:
+
+1. A C-style string:
+    The string is ended with '\0'.
+    [Syntax]
+    Create an empty C-style string on the stack:
+        char stackStr[] = {'\0'};
+
+    Create a string on the stack:
+        char str[] = "Hello";
+
+    Create an empty C-style string on the heap:
+        char *heapStr = new char[1];
+        heapStr[0] = '\0';
+
+    Create a string on the heap:
+        char *str = new char[length];
+
+2. A string provided by STL:
+    On the stack:
+        std::string str;
+        std::string str = "Hello";
+
+    On the heap:
+        std::string *str = new std::string();
+        std::string *str = new std::string("Hello");
+
+3. A customized string class, which is below.
+*/
 #include <string>
 class String
 {
