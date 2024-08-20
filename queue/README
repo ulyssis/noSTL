@@ -1,4 +1,4 @@
-This software implements a FIFO queue that, thanks to templates, can store elements of basic data types.
+A FIFO queue is implemented in this folder, which thanks to templates, can store elements of basic data types.
 
 This project is for enducation purpose, which uses GoogleTest to test C++ implementation with CMake.
 
