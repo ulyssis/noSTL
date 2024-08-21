@@ -1,0 +1,3 @@
+This is a queue implemented in another way: it doesn't maintain an array, but a group of nodes. As the node could be of any type, template is not necessary here.
+
+Some unit tests are created without involing any testing framework.
