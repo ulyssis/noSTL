@@ -18,7 +18,7 @@ This project is for enducation purpose, which uses GoogleTest to test C++ implem
 #### choose "execute shell command of cmake to build"
 
 # how to run the test, please choose one of the two methods bellow
-## run the test: run in terminal
+## run the test: run in terminal in folder 'build'
 ### test/googleTestTutorial_tests
 
 ## run the test: run with vscode configurations
